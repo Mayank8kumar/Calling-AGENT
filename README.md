@@ -21,9 +21,9 @@ token arrives. Target latency: **<500ms** perceived response time.
 ## Tech Stack
 
 | Layer | Technology |
-|-------|-----------|
+|-------|----------- |
 | Backend | Python 3.11, FastAPI, Uvicorn |
-| Database | PostgreSQL 16 + TimescaleDB |
+| Database | PostgreSQL 16 + TimescaleDB  |
 | Cache/Queue | Redis 7 + Celery |
 | Telephony | Twilio (global) + Plivo (India) |
 | STT | Deepgram Nova-3 (Hindi-English code-switching) |
